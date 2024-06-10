@@ -1,3 +1,5 @@
+This folder contains:
+
 + `SOMO.ipynb` is responsible for:
     + Denoising the audio
     + Optinal plot in time and frequency domains

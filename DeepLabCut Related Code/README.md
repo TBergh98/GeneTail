@@ -1,6 +1,6 @@
-Questa cartella contiene i template per il pre-processing e il post-processing relativi ai progetti di DeepLabCut.
+This folder contains the templates for pre-processing and post-processing related to DeepLabCut projects.
 
-Ogni notebook contiene le operazioni da fare prima/dopo le fasi che richiedono l'utilizzo di una GPU (per il quale ci si sposta su un servizio cloud come google colab).
+Each notebook contains the operations to be done before/after the phases that require the use of a GPU (for which we move to a cloud service like Google Colab).
 
 The order of the notebooks is as follows:
 1. `preprocessing_template.ipynb`
