@@ -1,0 +1,5 @@
+# Ignore the folder with the denoised .wav
+Audio Analysis SOMO/output_folder/
+
+# Ignore the folder with audio excerpts
+Audio Analysis SOMO/audio_excerpts/
