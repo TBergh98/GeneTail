@@ -28,14 +28,11 @@ def choose_destination_folder():
     return folder_path
 
 # Uncomment these lines to get user input for the video file and destination folder
-# video_file_path = choose_video_file()
-# dest_folder_path = choose_destination_folder()
-# num_frames = int(input("Enter the number of frames to extract: "))
+video_file_path = choose_video_file()
+dest_folder_path = choose_destination_folder()
+num_frames = int(input("Enter the number of frames to extract: "))
 
-# Hardcoded values for debugging
-video_file_path = r'C:\Users\bergamascot\Documents\Progetti\Morsicamenti Code\VideoCapannine202707\Telecamera3.avi'  # Replace with your video path
-dest_folder_path = r'C:\Users\bergamascot\Downloads\frame_code'  # Replace with your destination folder
-num_frames = 60
+
 
 def extract_frames(video_path, dest_folder, num_frames):
     """
